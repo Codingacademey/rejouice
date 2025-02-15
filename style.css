@@ -1,0 +1,450 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border;
+    font-family: futura;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.cur{
+   width: 300px;
+   height: 300px;
+   position: fixed;
+   
+   background-color: gray;
+ z-index: -99;
+   border-radius:50% ;
+   transform:  translate(-50%,-50%) scale(0);
+}
+
+
+ nav{
+   
+    width: 100%;
+height: 10vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+ }
+ .left{
+    height: 9vh;
+    width: 10%;
+margin-left: 20px;
+    margin-top: 10px;
+
+ }
+
+ .left img{
+    height: 100px;
+ 
+
+
+ }
+ .right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 9vh;
+    width: 50%;
+    margin-top: 10px;
+
+ }
+ .right a{
+    text-decoration: none;
+    font-size: 1.3vw;
+color: black;
+
+ }
+ .h{
+    font-size: 16vw;
+    text-align: center;
+    margin-top: 50px;
+  font-family: futura;
+  text-transform:uppercase;
+ }
+
+.t{
+   font-size: 14vw;
+   text-align: center;
+   font-family: futura;
+   text-transform: uppercase;
+line-height: 10vh;
+}
+.page1{
+   margin-left: 30px;
+   margin-right: 30px;
+}
+.page1 img{
+   height: 77vh;
+
+   text-align: center;
+   margin-top: 3vw;
+}
+.par{
+   display: flex;
+   justify-content: space-between;
+}
+.page2{
+   height: 100vh;
+   width: 100vw;
+}
+.img1{
+  
+   height: 67vh;
+   width: 29vw;
+ 
+ object-fit: cover;
+
+  
+  
+   
+}
+.img1 img{
+   height: 67vh;
+   width: 29vw;
+
+}
+.img2 img{
+   height: 67vh;
+   width: 29vw;
+
+}
+.img3 img{
+   height: 67vh;
+   width: 29vw;
+
+}
+
+.img2{
+   
+   height: 67vh;
+   width: 29vw;
+  object-fit: cover;
+
+  
+}  
+.img3{
+   
+   height: 67vh;
+   width: 29vw;
+   object-fit: cover;
+ 
+
+
+   
+}
+.container{
+
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-top: 10px;
+}
+.dets{
+   
+   height: 50px;
+   width: 285px;
+   background-color: #C3D8C5;
+  position: absolute;
+  top: 174%;
+  left: 7%;
+  border-radius: 30px;
+
+ 
+   
+}
+.dets p{
+   display: inline-block;
+   margin-top: 17px;
+   margin-left: 50px;
+}
+.img2 .dets2{
+   
+   height: 50px;
+   width: 285px;
+   background-color: #f4FdCF;
+  position: absolute;
+  top: 174%;
+  left:40%;
+  border-radius: 30px;
+
+ 
+   
+}
+.img2>.dets2 p{
+   display: inline-block;
+   margin-top: 17px;
+   margin-left: 50px;
+}
+.img3 .dets3{
+   
+   height: 50px;
+   width: 285px;
+   background-color: #ffffff;
+  position: absolute;
+  top: 174%;
+  left:73%;
+  border-radius: 30px;
+
+ 
+   
+}
+.img3>.dets3 p{
+   display: inline-block;
+   margin-top: 17px;
+   margin-left: 50px;
+}
+
+.dets2:hover{
+   height: 300px;
+   background-image: url('dets3.webp');
+   background-size: cover;
+
+
+}
+.dets:hover{
+   animation-name: long;
+ animation-duration: 1.5s;
+  
+
+   
+}
+@keyframes long {
+   0%{
+
+   }
+  
+   100%
+   {
+      height: 300px;
+      background-image: url('dets1.png');
+      background-size: cover;
+   }
+   
+}
+
+
+
+
+
+/**
+.dets:hover{
+   height: 300px;
+   background-image: url('dets1.png');
+   background-size: cover;
+   
+   
+
+}**/
+
+
+.dets3:hover{
+   height: 300px;
+   background-image: url('dets5.webp');
+   background-size: cover;
+
+}
+.page3 h1{
+ font-size: 4.5vw;
+font-weight: 600;
+ margin-left: 3vw;
+   margin-top: 5vw;
+   font-family: futura;
+   line-height: 4vw;
+   display: inline-block;
+}
+.page3 p{
+   display: inline-block;
+   margin-left: 10vw;
+   margin-top: 5vw;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   line-height: 1.5vw;
+}
+.imgbox1{
+   width: 48vw;
+   display: inline-block;
+}
+
+
+
+.imgbox2{
+   width: 48vw;
+   display: inline-block;
+}
+.imgbox1 img{
+ height: 55vh;
+ z-index: 99;
+
+}
+.imgbox2 img{
+height: 55vh;
+
+}
+
+.imgbox3{
+   width: 48vw;
+   display: inline-block;
+}
+.imgbox4{
+   width: 48vw;
+   display: inline-block;
+}
+.imgbox3 img{
+ height: 60vh;
+ margin-left: 5vw;
+}
+.imgbox4 img{
+height: 48vh;
+
+}
+.imgbox1 p{
+   display: inline-block;
+   text-align: center;
+
+}
+.line{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 1vw;
+
+}
+.page4{
+   margin-left: 3vw;
+   margin-right: 5vw;
+   height: 100vh;
+   width: 100vw;
+   margin-top: 18vh;
+}
+.hr{
+   margin-right: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.hr p{
+   font-size: 1vw;
+
+}
+.hr .m{
+   margin-right: 5vw;
+}
+.page4>h1{
+   font-size: 5vw;
+   margin-top: 10vw;
+   margin-left: 16vw;
+   font-weight: 400;
+line-height: 5.8vw;
+
+}
+.page4>button{
+   width: 310px;
+   height: 80px;
+   border-radius: 50px;
+   background-color: black;
+   color: #ffffff;
+   margin-left:32vw ;
+   margin-top: 10vw;
+
+}
+.page4>p{
+   font-family: futura;
+   margin-left: 34vw;
+   margin-top: 5vw;
+}
+.last{
+   font-size: 3.4vw;
+   margin-top: 10vw;
+   margin-left: 2vw;
+   margin-top: 5vw;
+
+}
+.page5{
+   height: 80vh;
+   width: 100vw;
+   background-color: black;
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.page5>img{
+   margin-left: 27vw;
+   margin-top: 8vw;
+}
+.page5>pre{
+   margin-left: 28vw;
+}
+.page5>.lay{
+   margin-top: 5vw;
+   margin-left: 19vw;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: medium;
+}
+
+
+
+.circle{
+   position: absolute;
+   height: 200px;
+   width: 200px;
+ left: 65vw;
+ top: 61vh;
+   border-radius: 50%;
+   justify-content: center;
+align-items: center;
+   display: flex;
+}
+#logo>h1{
+
+   position: absolute;
+   left: 3.5vw;
+   top: 4.5vw;
+    
+  font-family: futura;
+}
+
+#logo{
+   position: absolute;
+   width: 150px;
+   height: 150px;
+
+   border-radius: 50%;
+background-size: cover;
+
+}
+text>p{
+   font-weight: 100;
+ 
+   
+}
+.text{
+ 
+font-family: Arial, sans-serif;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   animation-name: rotate;
+   animation-duration: 6s;
+   animation-timing-function: ease-out;
+   animation-iteration-count: infinite;
+
+}
+@keyframes rotate {
+   from{
+      transform: rotate(360deg);
+
+   }
+   to{
+      transform: rotate(0deg);
+   }
+   
+}
+.text span{
+   position: absolute;
+   left: 50%;
+   font-size: 1.2em;
+   transform-origin:0 99px;
+}
